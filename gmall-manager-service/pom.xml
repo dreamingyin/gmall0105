@@ -7,7 +7,7 @@
 		<artifactId>gmall-parent</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<groupId>com.atguigu.gmall</groupId>
+	<groupId>com.atguigu.gmall.manager</groupId>
 	<artifactId>gmall-manager-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>gmall-manager-service</name>
