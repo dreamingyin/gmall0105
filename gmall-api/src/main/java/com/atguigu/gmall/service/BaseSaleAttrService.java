@@ -1,8 +1,6 @@
 package com.atguigu.gmall.service;
 
-import com.atguigu.gmall.bean.PmsBaseAttrValue;
 import com.atguigu.gmall.bean.PmsBaseSaleAttr;
-import com.atguigu.gmall.bean.PmsProductSaleAttr;
 
 import java.util.List;
 
@@ -11,4 +9,5 @@ import java.util.List;
  */
 public interface BaseSaleAttrService {
     List<PmsBaseSaleAttr> baseSaleAttrList();
+
 }
