@@ -42,4 +42,29 @@ public class UserServiceImpl implements UserService {
         List<UmsMemberReceiveAddress> umsMemberReceiveAddresses = umsMemberReceiveAddressMapper.selectByExample(example);*/
         return umsMemberReceiveAddresses;
     }
+
+    @Override
+    public UmsMember login(UmsMember umsMember) {
+        return null;
+    }
+
+    @Override
+    public void addUserToken(String token, String memberId) {
+
+    }
+
+    @Override
+    public UmsMember addOldOauthUser(UmsMember umsMember) {
+        return null;
+    }
+
+    @Override
+    public UmsMember checkOauthUser(UmsMember umsCheck) {
+        return null;
+    }
+
+    @Override
+    public UmsMemberReceiveAddress getReceiveAddressById(String receiveAddressId) {
+        return null;
+    }
 }
